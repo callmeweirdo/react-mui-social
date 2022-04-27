@@ -10,8 +10,7 @@ import {
   Menu,
   MenuItem,
 } from "@mui/material";
-import { Box } from "@mui/system";
-import { FOCUSABLE_SELECTOR } from "@testing-library/user-event/dist/utils";
+import { Box } from "@mui/material";
 import React, { useState } from "react";
 
 const StyledToolbar = styled(Toolbar)({
@@ -57,7 +56,7 @@ const Navbar = () => {
           OG WEIRD
         </Typography>
         <RocketLaunch sx={{ display: { xs: "block", sm: "none" } }} />
-        <Search>
+        <Search bgcolor={"background.default"} color={"text.primary"}>
           <InputBase placeholder="search..." />
         </Search>
         <Icons>

@@ -23,7 +23,7 @@ import {
 
 const Post = () => {
   return (
-    <Box>
+    <Box mb={5}>
       <Card sx={{ maxWidth: "100%" }}>
         <CardHeader
           avatar={
